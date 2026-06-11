@@ -1,32 +1,138 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-<meta http-equiv="Content-Language" content="tr">
-<meta http-equiv="Content-Type" content="text/html; charset=windows-1254">
-<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
-<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Welcome to naxay</title>
 <meta name="Microsoft Theme" content="artsy 011, default">
+
+<style>
+  /* Core Styles maintaining the original 'artsy' theme aesthetic */
+  body {
+    background-image: url("../_themes/artsy/arttilea.jpg");
+    background-color: #000000;
+    color: #FFFFCC;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  /* Link Colors matched to original HTML attributes */
+  a:link { color: #FF9900; }
+  a:visited { color: #999900; }
+  a:active { color: #669933; }
+
+  /* Centered Wrapper to keep the layout clean on wide screens */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  h1 {
+    color: #FFCC00;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+
+  /* Responsive Main Graphic */
+  .responsive-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* Responsive Table styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #CCCC99;
+    margin: 20px 0;
+  }
+
+  td {
+    border: 1px solid #999966;
+    padding: 12px;
+    text-align: left;
+    width: 50%;
+  }
+
+  /* Static Visitor Counter Styling */
+  .visitor-counter {
+    margin-top: 30px;
+    text-align: left;
+  }
+
+  .counter-box {
+    background-color: #111111; 
+    color: #00FF00; 
+    font-family: 'Courier New', Courier, monospace; 
+    font-weight: bold; 
+    font-size: 1.3rem; 
+    padding: 4px 10px; 
+    border: 2px inset #999966; 
+    letter-spacing: 3px;
+    display: inline-block;
+  }
+
+  /* Media Query: Snaps layout to mobile-optimized mode on small screens */
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.8rem;
+    }
+    
+    /* Converts table side-by-side cells into a clean vertical stack */
+    table, tr, td {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    
+    td {
+      border-bottom: none;
+    }
+    td:last-child {
+      border-bottom: 1px solid #999966;
+      padding-top: 4px; /* Brings the link closer to its label */
+    }
+  }
+</style>
 </head>
 
-<body background="../_themes/artsy/arttilea.jpg" bgcolor="#000000" text="#FFFFCC" link="#FF9900" vlink="#999900" alink="#669933"><!--mstheme--><font face="Arial">
+<body>
+<div class="container">
 
-<h1 align="center"><!--mstheme--><font color="#FFCC00">Welcome to naxay.ru!<!--mstheme--></font></h1>
-<p align="center">This is my landing page</p>
-<p align="center"><img border="0" src="bd04972_.gif" width="307" height="230"></p>
-<p align="center">Here is our works:</p>
-<!--mstheme--></font><table border="1" width="100%" bordercolordark="#999966" bordercolorlight="#CCCC99">
-  <tr>
-    <td width="50%"><!--mstheme--><font face="Arial">My website<!--mstheme--></font></td>
-    <td width="50%"><!--mstheme--><font face="Arial"><a href="https://naxay.studio">naxay.studio</a><!--mstheme--></font></td>
-  </tr>
-</table><!--mstheme--><font face="Arial">
-<p>Visitor count:</p>
-<p><!--webbot bot="HitCounter" u-custom i-digits="0" i-image="4"
-PREVIEW="&lt;strong&gt;[Hit Counter]&lt;/strong&gt;" i-resetvalue="0" startspan --><img src="../_vti_bin/fpcount.exe/C:/Documents%20and%20Settings/naxay07/My%20Documents/My%20Webs/?Page=naxay.ru/welcome_to_naxay.htm|Image=4" alt="Hit Counter"><!--webbot bot="HitCounter" endspan i-checksum="53140" -->
-</p>
-<p>&nbsp;</p>
+  <font face="Arial">
+  <h1>Welcome to naxay.ru!</h1>
+  <p>This is my landing page</p>
+  
+  <p>
+    <img class="responsive-img" border="0" src="bd04972_.gif" alt="Landing Page Illustration">
+  </p>
+  
+  <p>Here is our works:</p>
+  </font>
+  
+  <table>
+    <tr>
+      <td><font face="Arial">My website</font></td>
+      <td><font face="Arial"><a href="https://naxay.studio">naxay.studio</a></font></td>
+    </tr>
+  </table>
+  
+  <font face="Arial">
+  <div class="visitor-counter">
+    <p>Visitor count:</p>
+    <span class="counter-box">031</span>
+  </div>
+  
+  <p>&nbsp;</p>
+  </font>
 
-<!--mstheme--></font></body>
+</div>
+</body>
 
 </html>
