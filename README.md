@@ -8,4 +8,6 @@ Warning! This project has some AI-generated and human generated slop code. It's 
 # About SynergyMatrix Solutions Page
 I wanted to see how much a slop website with as much as buzzword possible could be generated via AI. So I generated that page with Gemini, enjoy pure buzzword-slop-soup!
 
+_**All of the content, companies and terms used in this page is a work of fiction. Any relation to real-life places, companies or people are purely coincidence.**_
+
 ### https://naxay07.github.io/naxay.ru/synergymatrix/
